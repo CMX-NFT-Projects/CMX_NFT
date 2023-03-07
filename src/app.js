@@ -14,6 +14,7 @@ import Web3 from "web3";
 import detectEthereumProvider from "@metamask/detect-provider";
 import "../public/app.scss";
 import { sha256 } from "crypto-hash";
+import diasPlayer from "./dias";
 import UAuth from "@uauth/js";
 import { create } from "underscore";
 import { stripZeros } from "ethers/lib/utils";
