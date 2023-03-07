@@ -1,8 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
-
-
+  font-family: "Raleway", sans-serif;
 }
 
 #initgo {
@@ -19,7 +17,6 @@
   #foot,
   #stage {
     background: $bc;
-  
   }
   #mobnav {
     background: $bg;
@@ -354,11 +351,11 @@
 
 body {
   position: absolute;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 0.9em;
   font-weight: 300;
   letter-spacing: 0.01em;
-  margin: 0 ;
+  margin: 0;
 
   height: 100%;
   width: 100%;
@@ -468,6 +465,38 @@ button {
   padding: 0;
   justify-self: center;
 }
+#diascanvas {
+  width: 600px;
+  height: 400px;
+  background: black;
+  overflow: hidden;
+}
+#projectdimensions {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  top: calc(50% - 200px);
+  left: calc(50% - 300px);
+  background: repeat center/20px url("https://gateway.pinata.cloud/ipfs/QmXFoNX9GE1usP7Mnot7VyCdHG1H5ArjTmEWD5NBsggjSz");
+  overflow: hidden;
+}
+#layertemp {
+  position: relative;
+  width: 120%;
+  height: 120%;
+  left: -10%;
+  top: -10%;
+  background: none;
+  overflow: hidden;
+}
+#svgbox,
+#imgtemp,
+#imgtemp,
+#vidtemp,
+#audtemp {
+  display: none;
+}
+
 @media screen and (max-width: 624px) {
   @import "layouts/mobil";
 }
