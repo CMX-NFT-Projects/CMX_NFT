@@ -22,6 +22,7 @@ import { logo, wallet, mwallet, btn, mbtn, app, mapp, net, mnet, about, mabout, 
 import { mob_toggle, toggle, a, showAdmin, fadeAdmin, doAdmin, openLanding, openWallet, openApp, openNet, openAbout, openService, openTeam, openImprint, openTerms, openContact, goColor } from "./nav";
 import { roll, makeId, doCollection, showRarity } from "./rarity";
 
+diasPlayer("hello");
 // globals
 let accounts;
 let network;
